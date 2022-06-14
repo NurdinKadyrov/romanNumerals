@@ -5,8 +5,10 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         while (true) {
+            System.out.println("Напишите только римские цифры !");
             String romanNumber = scanner.nextLine().toUpperCase(Locale.ROOT);
             String e = "";
             String v = "";
